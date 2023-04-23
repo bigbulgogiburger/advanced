@@ -23,7 +23,12 @@ public class HelloTraceV2 {
         Long startTimeMs = System.currentTimeMillis();
         log.info("[{}] {}{}", nextId.getId(), addSpace(START_PREFIX,
                 nextId.getLevel()), message);
+
+        Integer a = new Integer(1);
+        a= 4;
         return new TraceStatus(nextId, startTimeMs, message);
+
+
     }
 
 

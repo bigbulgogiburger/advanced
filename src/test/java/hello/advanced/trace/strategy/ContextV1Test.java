@@ -133,7 +133,7 @@ public class ContextV1Test {
     void strategyV4(){
 
 
-        ContextV1 contextx = new ContextV1(()->log.info("v1 실행"));
+        ContextV1 context = new ContextV1(()->log.info("v1 실행"));
 
 
         ContextV1 contextV1 = new ContextV1(new Strategy(){
